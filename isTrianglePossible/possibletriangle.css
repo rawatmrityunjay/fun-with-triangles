@@ -1,0 +1,79 @@
+
+*{
+
+    margin: 0;
+
+}
+
+body{
+
+    margin: 0;
+    padding: 0;
+    
+}
+
+header{
+
+    text-align: center;
+    margin: 3rem auto 1rem;
+    font-size: 1.5rem;
+    
+}
+
+label{
+
+    display: block;
+    text-align: center;
+
+}
+
+section{
+
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: auto;
+    padding: 1rem;
+
+}
+
+.input-area{
+
+    width: 30%;
+    margin: 1rem auto;
+    padding: 0.5rem;
+    text-align: center;
+    font-size: 1.2rem;
+    color:black;
+    border: 2px solid black;
+    border-radius: 0.5rem;
+
+}
+
+.input-area:focus{
+
+    outline: none;
+
+}
+
+#check-button{
+
+    cursor: pointer;
+    max-width: 40%;
+    margin: 1rem auto 1rem;
+    font-size: 1rem;
+    padding: 0.8rem;
+    border-radius: 1rem;
+    color: black;  
+    border: 1px solid black;
+
+
+}
+
+#result-message{
+
+    text-align: center;
+    margin: 1rem auto 2rem;
+    font-size: 1.2rem;
+
+}

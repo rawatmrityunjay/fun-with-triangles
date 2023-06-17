@@ -1,0 +1,54 @@
+*{
+
+    margin: 0px;
+
+}
+
+body{
+
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+
+
+}
+
+a{
+
+    color: black;
+
+}
+
+header{
+
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 1.5rem;
+    padding: 1rem;
+
+}
+
+.tasks-list{
+
+    padding-inline-start: 0;
+    list-style: none;
+    text-align: center;
+
+}
+
+.tasks-list a{
+
+    text-decoration: none;
+
+}
+
+.tasks-list li{
+
+    cursor: pointer;
+    margin: 2.5rem auto;
+    padding: 1rem;
+    font-size: 1.5rem;
+    border-radius: 0.5rem;
+    width: 50%;
+
+}
